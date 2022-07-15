@@ -1,0 +1,39 @@
+{
+  "name": "imageapi",
+  "version": "1.0.0",
+  "description": "udacity image processe api project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine",
+    "build": "npx tsc",
+    "start": "npm run build && npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osamaradwan2003/ImageProcessApi.git"
+  },
+  "keywords": [
+    "api",
+    "express",
+    "imageprocess"
+  ],
+  "author": "osamaradwan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/osamaradwan2003/ImageProcessApi/issues"
+  },
+  "homepage": "https://github.com/osamaradwan2003/ImageProcessApi#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "jasmine": "^4.2.1",
+    "jasmine-spec-reporter": "^7.0.0",
+    "jimp": "^0.16.1",
+    "supertest": "^6.2.4",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jasmine": "^4.0.3",
+    "@types/supertest": "^2.0.12"
+  }
+}
