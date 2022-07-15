@@ -1,0 +1,10 @@
+{
+  "configurations": [
+    {
+      "type": "pwa-chrome",
+      "name": "http://localhost/api/images?filename=santamonica&width=200&height=200",
+      "request": "launch",
+      "url": "http://localhost/api/images?filename=santamonica&width=200&height=200"
+    }
+  ]
+}

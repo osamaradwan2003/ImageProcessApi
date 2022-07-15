@@ -6,16 +6,12 @@ For this project, refactor and test as much as possible while you are building. 
 
 ## Getting Started
 
-1 init workspace
+1. init workspace
    ```shell```
     npm init
-2 install dependences packeges
-      ```shell```
-      npm install
-3 compile & test project using
-      ```shell```
-      npm run start
-
-3 run project using
-      ```shell```
-      node ./dist
+2. install dependences packeges
+      ```npm install```
+3. compile & test project using
+      ```npm run start```
+4. run project using
+      ```node ./dist```
